@@ -8,4 +8,4 @@ TARGET = public/index.html
 
 .PHONY: wasm
 wasm:
-	$(CC) $(FILES) -O3 $(EOPTS) --shell-file public/shell_minimal.html -o $(TARGET)
+	$(CC) $(FILES) -Os $(EOPTS) --shell-file public/shell_minimal.html -o $(TARGET)
