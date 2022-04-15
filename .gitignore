@@ -1,5 +1,5 @@
-.vscode/
 node_modules/
 public/index.html
 public/index.js
 public/index.wasm
+.vscode/
